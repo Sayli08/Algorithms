@@ -1,3 +1,5 @@
+
+```markdown
 # Binary Search: Iterative and Recursive Methods
 
 ## Introduction
@@ -56,10 +58,12 @@ BinSearch(A, n, key)
     }
     return 0;
 }
-Recursive Binary Search
+```
+
+## Recursive Binary Search
 The recursive approach uses function calls to perform binary search. Here is the algorithm:
 
-cpp
+```cpp
 Algorithm RBinSearch(l, h, key)
 {
     if (l == h)
@@ -80,17 +84,22 @@ Algorithm RBinSearch(l, h, key)
             return RBinSearch(mid + 1, h, key);
     }
 }
-Time Complexity
-Binary search has a time complexity of O(log n), where n is the number of elements in the array or list. This efficiency is due to the halving of the search space in each iteration or recursive call.
+```
 
-Best Case: O(1) (the target value is at the middle).
-Worst Case: O(log n) (the target value is at a leaf node in the binary search tree).
-Usage
+## Time Complexity
+Binary search has a time complexity of `O(log n)`, where `n` is the number of elements in the array or list. This efficiency is due to the halving of the search space in each iteration or recursive call.
+
+- **Best Case**: `O(1)` (the target value is at the middle).
+- **Worst Case**: `O(log n)` (the target value is at a leaf node in the binary search tree).
+
+## Usage
 Binary search is commonly used in various applications, including the determination of the length of the longest common prefix using binary search. It can efficiently reduce the search space and is a fundamental technique in computer science.
 
-Conclusion
+## Conclusion
 Binary search, with its iterative and recursive methods, is an efficient algorithm for searching a sorted array or list. Its divide-and-conquer approach makes it powerful, reducing the time complexity significantly compared to linear search.
 
-References
-Binary Search - Iterative Method https://youtu.be/C2apEw9pgtw?si=M1VaEdWssMjasFcL
-Binary Search - Recursive Method https://youtu.be/uEUXGcc2VXM?si=8MW-TF891WLJWs2P
+## References
+- [Binary Search - Iterative Method](https://youtu.be/C2apEw9pgtw?si=M1VaEdWssMjasFcL)
+- [Binary Search - Recursive Method](https://youtu.be/uEUXGcc2VXM?si=8MW-TF891WLJWs2P)
+```
+
