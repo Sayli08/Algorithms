@@ -101,5 +101,5 @@ Binary search, with its iterative and recursive methods, is an efficient algorit
 ## References
 - [Binary Search - Iterative Method](https://youtu.be/C2apEw9pgtw?si=M1VaEdWssMjasFcL)
 - [Binary Search - Recursive Method](https://youtu.be/uEUXGcc2VXM?si=8MW-TF891WLJWs2P)
-```
+
 
