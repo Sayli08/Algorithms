@@ -1,5 +1,5 @@
 
-```markdown
+
 # Binary Search: Iterative and Recursive Methods
 
 ## Introduction
