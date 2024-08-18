@@ -18,14 +18,23 @@ solving these sub-problems independently, and then combining their solutions to 
 ### Three Essential Steps:
 
 1. **Divide**: 
-- Break the problem into smaller sub-problems. The sub-problems should be of the same type as the original problem.
-- The goal is to reduce the problem size step by step until you reach a base case, where the sub-problems are small enough to be solved directly.
+- In the divide step, the problem is divided into smaller subproblems.
+#### Detail: 
+- Break the problem into smaller sub-problems. 
+- The sub-problems should be of the same type as the original problem.
 
 2. **Conquer**: 
-- Solve the sub-problems recursively. If the sub-problems are still large, apply the Divide and Conquer strategy to them. 
+- The conquer step focuses on solving these subproblems, often recursively, until they become small enough to be solved directly. 
+- Base cases are essential in the conquer step to stop the recursion and transition to the solution.
+#### Deatil: 
+- Solve the sub-problems recursively. 
+- If the sub-problems are still large, apply the Divide and Conquer strategy to them. 
 - Continue this process until the sub-problems are simple enough to be solved without further division.
 
 3. **Combine**: 
+- Finally, in the combine step, the solutions to the subproblems are merged using a **helper function** to obtain the solution to the original problem.
+- This strategy is widely used in various algorithms to efficiently solve complex problems.
+#### Detail:
 - After solving the sub-problems, combine their solutions to form the solution to the original problem. 
 - The combination step is crucial and often involves merging or aggregating the results obtained from the sub-problems.
 
@@ -66,12 +75,13 @@ DAC(P)
 
 ### Explanation:
 
-- **DAC(P)**: This represents the Divide and Conquer algorithm applied to a problem \( P \).
-- **small(P)**: A condition to check if the problem \( P \) is small enough to solve directly.
-- **S(P)**: The solution to the small problem \( P \).
-- **Divide**: If the problem \( P \) is not small, it is divided into smaller sub-problems \( P_1, P_2, \dots, P_k \).
+- **DAC(P)**: This represents the Divide and Conquer algorithm applied to a problem `P`.
+- **small(P)**: A condition to check if the problem `P` is small enough to solve directly.
+- **S(P)**: The solution to the small problem `P`.
+- **Divide**: If the problem `P` is not small, it is divided into smaller sub-problems `P1, P2, ... , Pk`.
 - **Conquer**: The Divide and Conquer algorithm is recursively applied to each sub-problem.
 - **Combine**: The solutions of the sub-problems are combined to form the solution to the original problem.
+
 
 ## Why Use Divide and Conquer?
 
