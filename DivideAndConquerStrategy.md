@@ -131,12 +131,13 @@ Divide and Conquer is particularly effective in situations where:
 
 ## Analyzing Divide and Conquer Algorithms
 
-- To analyze a Divide and Conquer algorithm, we typically express its time complexity using a recurrence relation. 
-- For example, the recurrence relation for Merge Sort is:
+To analyze a Divide and Conquer algorithm, we typically express its time complexity using a recurrence relation. For example, the recurrence relation for **Merge Sort** is:
 
-\[ T(n) = 2T\left(\frac{n}{2}\right) + O(n) \]
+T(n) = 2T(n/2) + O(n)
 
-Here, \( T(n) \) is the time complexity for an array of size \( n \), \( 2T\left(\frac{n}{2}\right) \) accounts for the time to sort the two halves, and \( O(n) \) represents the time to merge the sorted halves. Solving this recurrence relation using methods like the **Master Theorem** gives us the overall time complexity, which in this case is \( O(n \log n) \).
+- Here, T(n) is the time complexity for an array of size n, 2T(n/2) accounts for the time to sort the two halves, and O(n) represents the time to merge the sorted halves. 
+- Solving this recurrence relation using methods like the **Master Theorem** gives us the overall time complexity, which in this case is O(n log n).
+
 
 ## Practical Applications of Divide and Conquer
 
