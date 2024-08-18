@@ -1,4 +1,3 @@
-```markdown
 # Divide and Conquer Strategy in Algorithms
 
 ## Introduction to Divide and Conquer Strategy
@@ -152,5 +151,4 @@ Divide and Conquer isn't just theoretical—it has practical applications in var
 - By breaking a problem down into smaller sub-problems, solving them recursively, and combining their solutions, you can tackle large-scale problems that would be difficult to solve directly.
 
 In upcoming lessons, we'll dive deeper into specific Divide and Conquer algorithms, explore their implementations, and learn how to analyze their time complexities using recurrence relations. Understanding these fundamentals will greatly enhance your ability to design and analyze algorithms effectively.
-```
 
