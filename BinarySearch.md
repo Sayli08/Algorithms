@@ -8,7 +8,7 @@ Binary search is a fundamental searching technique that follows the divide-and-c
 ## Divide and Conquer Strategy
 Divide and conquer is a problem-solving approach where a large problem is broken down into smaller subproblems. These subproblems are solved individually, and their solutions are combined to solve the original problem.
 
-![Binary Search Process](https://github.com/Sayli08/Algorithms/blob/main/BINARY_SEARCH%20IMAGE.png)
+![Binary Search Process](https://github.com/Sayli08/AlgorithmImages/blob/main/BINARY_SEARCH%20IMAGE.png)
 
 
 ## Prerequisites for Binary Search
