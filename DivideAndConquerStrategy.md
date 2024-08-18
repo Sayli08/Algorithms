@@ -41,7 +41,8 @@ solving these sub-problems independently, and then combining their solutions to 
 ## Diagram of Divide and Conquer Process
 
 ```plaintext
-Original Problem                /   \
+                   Original Problem
+                      /           \
                 Subproblem     Subproblem
                    /                 \
           Subsubproblem         Subsubproblem
@@ -50,7 +51,7 @@ Original Problem                /   \
                 \                       /
               Combine               Combine
                   \                   /
-           Combined Solution
+                     Combined Solution
 ```
 
 ## Pseudocode for Divide and Conquer
@@ -60,7 +61,7 @@ Below is a pseudocode representation of the Divide and Conquer strategy:
 ```plaintext
 DAC(P)
 {
-    if (small(P))
+    if (small(P)) // base case
     {
         S(P);
     }
@@ -68,7 +69,7 @@ DAC(P)
     {
         divide P into P1, P2, P3, ... Pk;
         Apply DAC(P1), DAC(P2), ... ;
-        Combine(DAC(P1), DAC(P2), ... );
+        Combine(DAC(P1), DAC(P2), ... );// helper function
     }
 }
 ```
