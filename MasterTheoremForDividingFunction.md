@@ -26,9 +26,13 @@ $$
 
 ### To apply the Master Theorem, we need to calculate two key values:
 
+#### 1
+
 $$
 \log_b a
 $$
+
+#### 2
 
 $$
 k
@@ -36,7 +40,7 @@ $$
 
 Based on these values, the theorem divides the analysis into three cases.
 
-## Case 1
+## **Case 1**
 
 If 
 
@@ -50,11 +54,9 @@ $$
 T(n) = \Theta\left(n^{\log_b a}\right)
 $$
 
-$$
-T(n) = \Theta\left(n^{\log_b a}\right)
-$$
+----
 
-## Case 2
+## **Case 2**
 
 If 
 
@@ -62,10 +64,10 @@ $$
 \log_b a = k
 $$
 
-then there are three subcases based on the value of \( p \):
+then there are three subcases based on the value of  \( p \):
 
-----
-1. If 
+### **Subcase 1:**
+If 
 
 $$
 p > -1
@@ -77,8 +79,8 @@ $$
    T(n) = \Theta\left(n^k \cdot \log^{p+1} n\right)
    $$
    
-----
-2. If 
+### **Subcase 2:**
+If 
 
 $$
 p = -1
@@ -90,9 +92,10 @@ $$
    T(n) = \Theta\left(n^k \cdot \log \log n\right)
    $$
    
-----
 
-3. If 
+
+### **Subcase 3:**
+If 
 
 $$
 p < -1
@@ -106,7 +109,7 @@ $$
 
 ---
 
-## Case 3
+## **Case 3**
 
 If 
 
@@ -114,11 +117,10 @@ $$
 \log_b a < k
 $$
 
-then there are two subcases based on the value of \( p \):
+ then there are two subcases based on the value of  \( p \):
 
----
-
-1. If 
+### **Subcase 1:**
+If 
 
 $$
 p \geq 0
@@ -130,9 +132,9 @@ $$
    T(n) = \Theta\left(n^k \cdot \log^p n\right)
    $$
 
----
 
-2. If 
+### **Subcase 2:**
+ If 
 
 $$
 p < 0
@@ -148,7 +150,7 @@ $$
 
 ## Summary
 
-### The Master Theorem simplifies the process of determining the time complexity for divide and conquer algorithms by providing a structured approach based on the relationship between:
+The Master Theorem simplifies the process of determining the time complexity for divide and conquer algorithms by providing a structured approach based on the relationship between:
 
 $$
 \log_b a
