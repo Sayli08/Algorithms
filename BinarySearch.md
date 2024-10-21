@@ -14,6 +14,8 @@ Divide and conquer is a problem-solving approach where a large problem is broken
 ## Prerequisites for Binary Search
 - **Sorted List**: The list or array must be sorted in either ascending or descending order.
 - **Index Pointers**: Two pointers are needed—low (starting point) and high (ending point).
+- **Process**: Calculate mid and compare element at mid/ element until mid
+- **Condition To Stop the Process**: Criteria to end the process/loop(iterative)/recursion.
 
 ## Binary Search Process
 Binary search works by repeatedly dividing the search interval in half. Here’s a simplified version of the binary search strategy:
